@@ -1,0 +1,77 @@
+# Why Go?
+Pros, Cons & a few use cases
+29 Jun 2023
+Tags: choosing-go, go-pros, go-cons, wawandco
+Summary: This presentation contains information about go's pros and cons along with some case studies.
+
+Wawandco
+https://go.dev/solutions/case-studies
+https://wawand.co/case-studies/
+: Today we're going to be looking at the Go programming language
+: its features
+: some pros and cons
+: and case studies that involve its usage.
+
+## About Go
+
+.image images/go-portrait.gif
+: - Go is an open-source programming language that is statically typed.
+: - has a garbage collector.
+: - and built-in concurrency(supported by Google).
+
+## Pros
+- Simple
+: Go is a Swiss Army knife, but one that has stripped off all of the overhead and extra junk that has accreted onto programming platforms over the past few decades
+: Its standard library doesn't aim to solve every problem out there but it enabled new tools to appear and they're good for the purpose they serve 
+
+- Easy to Learn
+: Go's lean syntax is easy to get used to. Plus, they have a few training materials
+: My personal favorite is the Tour of Go which is an interactive site that walks you through Go's main features.
+
+- Large Ecosystem of partners, communities & tools
+: Go has a large ecosystem of partners, communities, and tools which are growing overtime and additionally
+: Over the year, they conduct surveys for Go developers which allows them to gather feedback and improve based on it.
+
+
+## Cons
+- Hard to master
+: According to a Go survey from 2020 over 70% of go devs
+: feel productive within the first year, but
+: learning how to write idiomatic Go is challenging
+: especially, for those coming from a different programming paradigm
+
+- Verbose Error Handling
+: Some people complain that error handling leads to writing boilerplate.
+: If it's not done correctly it can easily create clutter & mask problems.
+
+
+- Not exactly object-oriented
+: Go has types and methods but it doesn't have type hierarchy.
+: Interfaces are a different concept, one that's easy to use and more general
+: Embedded Types (Similar but not identical to - subclassing) 
+
+## Case Studies
+
+.image /images/go-case-studies.png 550 950
+
+: Google - Web index services that support google search by keeping search results updated and comprehensive, are written in Go
+: Cloudflare - Go is at the heart of CloudFlare’s services including handling compression for high-latency HTTP connections, our entire DNS infrastructure, SSL, load testing and more.
+: Cockroach Labs - How they chose Go 
+
+
+: Go use cases
+: - Cloud & Network services
+: - CLIs
+: - Web Development
+: - DevOps & SRE
+
+## Our Case Studies
+
+.image images/symbol-logo.svg 150 400
+.image images/motus-logo-gray-blue.svg 150 400
+.image images/eventpipe-logo.png 150 400
+
+:Don't forget to mention buffalo
+
+
+
