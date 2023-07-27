@@ -1,12 +1,17 @@
 # Why Go?
-Pros, Cons & a few use cases
+Pros, Cons & a few case studies
 29 Jun 2023
 Tags: choosing-go, go-pros, go-cons, wawandco
 Summary: This presentation contains information about go's pros and cons along with some case studies.
 
-Wawandco
+
 https://go.dev/solutions/case-studies
 https://wawand.co/case-studies/
+https://symbolsecurity.com/
+https://www.motus.com/solutions/living-costs/
+https://www.motus.com/solutions/bring-your-own/
+https://eventpipe.com/
+
 : Today we're going to be looking at the Go programming language
 : its features
 : some pros and cons
@@ -19,33 +24,39 @@ https://wawand.co/case-studies/
 : - has a garbage collector.
 : - and built-in concurrency(supported by Google).
 
-## Pros
-- Simple
+## Pros: Simple
+.code ./samples/first.go
+
 : Go is a Swiss Army knife, but one that has stripped off all of the overhead and extra junk that has accreted onto programming platforms over the past few decades
 : Its standard library doesn't aim to solve every problem out there but it enabled new tools to appear and they're good for the purpose they serve 
 
-- Easy to Learn
+## Pros: Easy to Learn
+
 : Go's lean syntax is easy to get used to. Plus, they have a few training materials
 : My personal favorite is the Tour of Go which is an interactive site that walks you through Go's main features.
 
-- Large Ecosystem of partners, communities & tools
+## Pros: Large Ecosystem of partners, communities & tools
+
 : Go has a large ecosystem of partners, communities, and tools which are growing overtime and additionally
 : Over the year, they conduct surveys for Go developers which allows them to gather feedback and improve based on it.
 
 
 ## Cons
 - Hard to master
+
 : According to a Go survey from 2020 over 70% of go devs
 : feel productive within the first year, but
 : learning how to write idiomatic Go is challenging
 : especially, for those coming from a different programming paradigm
 
 - Verbose Error Handling
+
 : Some people complain that error handling leads to writing boilerplate.
 : If it's not done correctly it can easily create clutter & mask problems.
 
 
 - Not exactly object-oriented
+
 : Go has types and methods but it doesn't have type hierarchy.
 : Interfaces are a different concept, one that's easy to use and more general
 : Embedded Types (Similar but not identical to - subclassing) 
@@ -56,14 +67,11 @@ https://wawand.co/case-studies/
 
 : Google - Web index services that support google search by keeping search results updated and comprehensive, are written in Go
 : Cloudflare - Go is at the heart of CloudFlare’s services including handling compression for high-latency HTTP connections, our entire DNS infrastructure, SSL, load testing and more.
-: Cockroach Labs - How they chose Go 
+: Cockroach Labs - Go's performance benefits, garbage collection and lower barrier to entry were the things that made it a great fit for the CockroachDB
+: Microsoft - Go's is a first class citizen on Azure, as it is used to power some of their services like Azure Container Service.
+: Uber - At Uber they created a tool called AresDB which is a GPU-powered real-time analytics storage and query engine. 
+: > It features low query latency, high data freshness and highly efficient in-memory and on disk storage management. That tool was mostly written in Go
 
-
-: Go use cases
-: - Cloud & Network services
-: - CLIs
-: - Web Development
-: - DevOps & SRE
 
 ## Our Case Studies
 
@@ -71,7 +79,14 @@ https://wawand.co/case-studies/
 .image images/motus-logo-gray-blue.svg 150 400
 .image images/eventpipe-logo.png 150 400
 
-:Don't forget to mention buffalo
+: Symbol - Symbol Security is a phishing simulation and training platform designed to help companies raise cyber-awareness and reduce risks within their teams
+: Living Costs(Relocation) -  Was a Motus feature designed to streamline and automate the cost calculation process for companies relocating their employees to cities around the world
+: > They required a cloud-native solution to modernize the way they were calculating the relocation cost, one that'd ensure accurate and efficient results.
+: BYO - Stands for Bring you own, and it's a configurable solution that helps employers provide reimbursements based on living cost data for the business use of employee assets
+: EventPipe - It's a software as service platform designed to ease the management of event housing for hotels, event organizers and other stakeholders
+: > Using Go we were able to create that platform 
+
+: Don't forget to mention buffalo
 
 
 
