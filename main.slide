@@ -41,21 +41,20 @@ https://eventpipe.com/
 : Over the year, they conduct surveys for Go developers which allows them to gather feedback and improve based on it.
 
 
-## Cons
-- Hard to master
+## Cons: Hard to master
 
 : According to a Go survey from 2020 over 70% of go devs
 : feel productive within the first year, but
 : learning how to write idiomatic Go is challenging
 : especially, for those coming from a different programming paradigm
 
-- Verbose Error Handling
+## Cons: Verbose Error Handling
 
 : Some people complain that error handling leads to writing boilerplate.
 : If it's not done correctly it can easily create clutter & mask problems.
 
 
-- Not exactly object-oriented
+## Cons: Not exactly object-oriented
 
 : Go has types and methods but it doesn't have type hierarchy.
 : Interfaces are a different concept, one that's easy to use and more general
