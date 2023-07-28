@@ -60,20 +60,18 @@ https://eventpipe.com/
 : Interfaces are a different concept, one that's easy to use and more general
 : Embedded Types (Similar but not identical to - subclassing) 
 
-## Case Studies
+## Case Studies: Symbol Security
 
 .image images/symbol-logo.svg 150 400
 .image images/motus-logo-gray-blue.svg 150 400
 .image images/eventpipe-logo.png 150 400
 
 : Symbol - Symbol Security is a phishing simulation and training platform designed to help companies raise cyber-awareness and reduce risks within their teams
+
+## Case Studies: Living Costs
+
 : Living Costs(Relocation) -  Was a Motus feature designed to streamline and automate the cost calculation process for companies relocating their employees to cities around the world
 : > They required a cloud-native solution to modernize the way they were calculating the relocation cost, one that'd ensure accurate and efficient results.
-: BYO - Stands for Bring you own, and it's a configurable solution that helps employers provide reimbursements based on living cost data for the business use of employee assets
-: EventPipe - It's a software as service platform designed to ease the management of event housing for hotels, event organizers and other stakeholders
-: > Using Go we were able to create that platform 
-
-: Don't forget to mention buffalo
 
 
 
