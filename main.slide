@@ -25,10 +25,10 @@ https://eventpipe.com/
 : - and built-in concurrency(supported by Google).
 
 ## Pros: Simple
-.code ./samples/first.go
 
 : Go is a Swiss Army knife, but one that has stripped off all of the overhead and extra junk that has accreted onto programming platforms over the past few decades
 : Its standard library doesn't aim to solve every problem out there but it enabled new tools to appear and they're good for the purpose they serve 
+: Show code for Multi-Insert - Contacts model
 
 ## Pros: Easy to Learn
 
