@@ -63,18 +63,6 @@ https://eventpipe.com/
 
 ## Case Studies
 
-.image /images/go-case-studies.png 550 950
-
-: Google - Web index services that support google search by keeping search results updated and comprehensive, are written in Go
-: Cloudflare - Go is at the heart of CloudFlare’s services including handling compression for high-latency HTTP connections, our entire DNS infrastructure, SSL, load testing and more.
-: Cockroach Labs - Go's performance benefits, garbage collection and lower barrier to entry were the things that made it a great fit for the CockroachDB
-: Microsoft - Go's is a first class citizen on Azure, as it is used to power some of their services like Azure Container Service.
-: Uber - At Uber they created a tool called AresDB which is a GPU-powered real-time analytics storage and query engine. 
-: > It features low query latency, high data freshness and highly efficient in-memory and on disk storage management. That tool was mostly written in Go
-
-
-## Our Case Studies
-
 .image images/symbol-logo.svg 150 400
 .image images/motus-logo-gray-blue.svg 150 400
 .image images/eventpipe-logo.png 150 400
